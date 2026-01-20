@@ -1,8 +1,8 @@
 # SIG AI Recruitment Submission
 
-Name: Siddharth S 
-Roll No: AM.SC.U4CSE25349
-Branch: CSE Core
+- Name: Siddharth S 
+- Roll No: AM.SC.U4CSE25349
+- Branch: CSE Core
 
 ## Overview
 This repository contains my solutions for the SIG AI recruitment tasks.
