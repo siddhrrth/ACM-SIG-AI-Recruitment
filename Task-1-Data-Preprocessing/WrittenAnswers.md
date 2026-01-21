@@ -1,6 +1,6 @@
 # Written Answers
 
-### 1. Why did you choose these methods to fill missing values?
+### 1. Why did you choose specific imputation methods?
 
 First, I checked which columns had missing values.  
 I handled numerical and categorical columns separately.
@@ -27,29 +27,10 @@ It reduces the effect of extreme values without losing data.
 
 ---
 
-### 3. How did you encode categorical variables?
-
-For columns with Yes or No values, I used label encoding
-
-For columns with more than two categories I used one hot encoding.
-
----
-
-### 4. What is data leakage and where can it happen?
+## 3. Where and how might data leakage occur in this dataset?
 
 Data leakage happens when information from test data or future data
-is used during training.
+is used during model training.
 
-It will happen when Data is scaled before train test split , Missing values are filled using the full dataset, Target related features are used
-
-To avoid data leakage, preprocessing should be done only
-after splitting the data and using training data only.
-
----
-
-### 5. How did you prepare the final cleaned dataset?
-
-
-- I Removed duplicate rows, Fixed incorrect data types, Filled missing values, Handled outliers, Encoded categorical columns
-
-Finally, I saved the cleaned dataset as a CSV file.
+Here data leakage can happen if Scaling is done before splitting the data into training and testing sets,Missing values are filled using statistics from the full dataset,Features related to the target variable  are used incorrectly
+To avoid data leakage, all preprocessing steps should be done after the train test split and only using training data.
