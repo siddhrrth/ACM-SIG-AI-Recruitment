@@ -8,9 +8,7 @@ I handled numerical and categorical columns separately.
 For numerical columns, I used median to fill missing values.  
 I did not use mean because some values were very large or very small.  
 Median is safer and does not change much because of outliers.
-
-For categorical columns, I used mode.  
-Mode means the value that appears most often.  
+For categorical columns, I used mode.   
 This is suitable for categorical data.
 
 ---
@@ -18,10 +16,8 @@ This is suitable for categorical data.
 ### 2. How did you handle outliers and why?
 
 I used the IQR (Interquartile Range) method to detect outliers.
-Found Q1 (25th percentile) then Found Q3 (75th percentile) after that I Calculated IQR = Q3 − Q1
-
+Found Q1 then Found Q3 after that I Calculated IQR = Q3 − Q1
 Values below Q1 − 1.5 × IQR and above Q3 + 1.5 × IQR were treated as outliers.
-
 Instead of removing rows, I capped the outliers within the allowed range.  
 It reduces the effect of extreme values without losing data.
 
