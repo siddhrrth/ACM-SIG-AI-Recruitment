@@ -18,8 +18,7 @@ This is suitable for categorical data.
 ### 2. How did you handle outliers and why?
 
 I used the IQR (Interquartile Range) method to detect outliers.
-
-- Found Q1 (25th percentile) then Found Q3 (75th percentile) after that I Calculated IQR = Q3 − Q1
+Found Q1 (25th percentile) then Found Q3 (75th percentile) after that I Calculated IQR = Q3 − Q1
 
 Values below Q1 − 1.5 × IQR and above Q3 + 1.5 × IQR were treated as outliers.
 
