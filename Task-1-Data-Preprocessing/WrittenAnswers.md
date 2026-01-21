@@ -33,9 +33,6 @@ For columns with Yes or No values, I used label encoding
 
 For columns with more than two categories I used one hot encoding.
 
-One hot encoding avoids giving any order to categories and helps the model
-understand them correctly.
-
 ---
 
 ### 4. What is data leakage and where can it happen?
