@@ -1,4 +1,4 @@
-# Task 3 – Regression Reasoning - my documentation
+# Task 3 – my documentation
 
 In this task, I learned when to use Linear Regression and Logistic Regression and how to apply them on a dataset.
 
@@ -99,4 +99,5 @@ I used StandardScaler to scale the features.
 
 ## Conclusion
 As a beginner doing this helped me to learn about what regression models are and using them.
+
 
